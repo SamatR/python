@@ -1,0 +1,19 @@
+# python
+zadaniye 01
+# coding: utf8
+x=int(input('Please enter number 1-9: '))
+if x<=3:
+    s= raw_input('Please enter string: ')
+    n= int(input('Enter how many time repeat string: '))
+    for ggeps in range(n):
+        print s
+elif x<=6:
+    m=int(input('Pleas enter degre: '))
+    print x**m
+elif x<=9:
+    for hheps in range(10):
+        x+=1
+        print x
+else:
+    print 'Input Error'
+
