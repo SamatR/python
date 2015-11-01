@@ -1,0 +1,14 @@
+a = 'Найти самое длинное слово в строке'
+index = 0
+s = a.split(" ")
+for q in s:
+      if len(q)>index:
+          index = len(q)
+      else:
+         pass
+
+for q in s:
+    if len(q) == index:
+        print q
+    else:
+       pass
