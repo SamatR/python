@@ -1,0 +1,13 @@
+s='Найти: самое длинное слово .Разделенное, точкой и запятой'
+g=0
+f=s.split('.')and s.split(',')and s.split(' ')
+for c in f:
+    if len(c)>g:
+        g=len(c)
+    else:
+        pass
+for c in f:
+    if len(c)==g:
+        print c
+    else:
+        pass
